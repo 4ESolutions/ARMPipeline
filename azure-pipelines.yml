@@ -23,4 +23,3 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/4ESolutions/ARMPipeline/main/create_web_app/azuredeploy.json'
     overrideParameters: '-projectName ARM01'
     deploymentMode: 'Incremental'
-    deploymentName: 'DeployPipelineTemplate'
