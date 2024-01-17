@@ -20,6 +20,6 @@ steps:
     resourceGroupName: 'ARMDemo'
     location: 'Australia Central'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/4ESolutions/ARMPipeline/main/create_web_app/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/4ESolutions/ARMPipeline/main/create_web_app/azuredeploy.json?token=GHSAT0AAAAAACMDFYRHMM5SA3DPAC2Z3MY4ZNHMVWA'
     overrideParameters: '-projectName ARMDemo01'
     deploymentMode: 'Incremental'
