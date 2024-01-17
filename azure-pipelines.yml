@@ -9,6 +9,8 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+steps:
+
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
@@ -19,5 +21,5 @@ pool:
     location: 'Australia Central'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://github.com/4ESolutions/ARMPipeline/blob/main/azuredeploy.json'
-    overrideParameters: '-projectName [EnterAProjectName]'
+    overrideParameters: '-projectName ARMDemo01'
     deploymentMode: 'Incremental'
